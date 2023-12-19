@@ -1,0 +1,18 @@
+2023-12-18T12:04:03+00:00 CRITICAL Cannot redeclare create_product() (previously declared in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php:213) in W:\domains\test-adelohost\wp-content\themes\handeny\assets\js\test.php on line 5
+
+2023-12-18T12:04:04+00:00 CRITICAL Cannot redeclare create_product() (previously declared in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php:213) in W:\domains\test-adelohost\wp-content\themes\handeny\assets\js\test.php on line 5
+
+2023-12-18T12:44:34+00:00 CRITICAL syntax error, unexpected '$_POST' (T_VARIABLE), expecting ';' or ',' in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php on line 256
+
+2023-12-18T12:44:34+00:00 CRITICAL syntax error, unexpected '$_POST' (T_VARIABLE), expecting ';' or ',' in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php on line 256
+
+2023-12-18T12:49:18+00:00 CRITICAL Cannot redeclare myajax_data() (previously declared in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php:212) in W:\domains\test-adelohost\wp-content\themes\handeny\create-new-product.php on line 37
+
+2023-12-18T15:53:23+00:00 CRITICAL syntax error, unexpected 'wp_die' (T_STRING) in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php on line 175
+
+2023-12-18T16:01:27+00:00 CRITICAL syntax error, unexpected '=', expecting ')' in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php on line 180
+
+2023-12-18T17:15:07+00:00 CRITICAL syntax error, unexpected '$attachment_id' (T_VARIABLE) in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php on line 189
+
+2023-12-18T17:15:07+00:00 CRITICAL syntax error, unexpected '$attachment_id' (T_VARIABLE) in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php on line 189
+

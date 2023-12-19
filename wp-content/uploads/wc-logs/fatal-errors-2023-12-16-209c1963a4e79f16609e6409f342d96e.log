@@ -1,0 +1,29 @@
+2023-12-16T22:10:57+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_form_field() in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php:82
+Stack trace:
+#0 W:\domains\test-adelohost\wp-settings.php(611): include()
+#1 W:\domains\test-adelohost\wp-config.php(96): require_once('W:\\domains\\test...')
+#2 W:\domains\test-adelohost\wp-load.php(50): require_once('W:\\domains\\test...')
+#3 W:\domains\test-adelohost\wp-admin\admin.php(34): require_once('W:\\domains\\test...')
+#4 W:\domains\test-adelohost\wp-admin\post.php(12): require_once('W:\\domains\\test...')
+#5 {main}
+  thrown in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php on line 82
+
+2023-12-16T22:10:57+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_form_field() in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php:82
+Stack trace:
+#0 W:\domains\test-adelohost\wp-settings.php(611): include()
+#1 W:\domains\test-adelohost\wp-config.php(96): require_once('W:\\domains\\test...')
+#2 W:\domains\test-adelohost\wp-load.php(50): require_once('W:\\domains\\test...')
+#3 W:\domains\test-adelohost\wp-admin\admin-ajax.php(22): require_once('W:\\domains\\test...')
+#4 {main}
+  thrown in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php on line 82
+
+2023-12-16T22:10:57+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_form_field() in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php:82
+Stack trace:
+#0 W:\domains\test-adelohost\wp-settings.php(611): include()
+#1 W:\domains\test-adelohost\wp-config.php(96): require_once('W:\\domains\\test...')
+#2 W:\domains\test-adelohost\wp-load.php(50): require_once('W:\\domains\\test...')
+#3 W:\domains\test-adelohost\wp-blog-header.php(13): require_once('W:\\domains\\test...')
+#4 W:\domains\test-adelohost\index.php(17): require('W:\\domains\\test...')
+#5 {main}
+  thrown in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php on line 82
+

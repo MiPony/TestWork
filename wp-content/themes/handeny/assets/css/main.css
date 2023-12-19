@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Marcellus';
+    src: url('fonts/Marcellus-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('fonts/Lora-Italic-VariableFont_wght.ttf') format('truetype'),
+         url('fonts/Lora-VariableFont_wght.ttf') format('truetype'),
+         url('fonts/static/Lora-Bold.ttf') format('truetype'),
+         url('fonts/static/Lora-BoldItalic.ttf') format('truetype'),
+         url('fonts/static/Lora-Italic.ttf') format('truetype'),
+         url('fonts/static/Lora-Medium.ttf') format('truetype'),
+         url('fonts/static/Lora-MediumItalic.ttf') format('truetype'),
+         url('fonts/static/Lora-SemiBold.ttf') format('truetype'),
+         url('fonts/static/Lora-SemiBoldItalic.ttf') format('truetype'),
+         url('fonts/static/Lora-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'Marcellus';
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:focus{
+    color:black;
+}
+
+.flex-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 15%;
+    background-color: black;
+}
+
+.custom-logo-link{
+    padding: 0 15px; 
+}
+
+ul{
+    display: flex;
+    text-transform: uppercase;
+}
+
+ul li{
+    margin: 15px 15px; 
+}
+
+ul li a{
+    color: #FFFFFF !important;
+    font-size: 14px; 
+    font-weight: 400;
+    line-height: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.product{
+    width: 33%;
+    padding: 30px 0;
+    text-align: center;
+}
+
+h4{
+    text-transform: uppercase;
+}
+
+.link{
+    padding: 5px 20px;
+    background-color: #C3935B;
+    color: #fff;
+    font-size: 14px;
+}
+
+#create_new_product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#create_new_product input,
+#create_new_product select{
+    width: 400px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#create_new_product select{
+    width: 418px;
+}
+
+#user-file{
+    margin: 10px 0 0 0;
+    width: 418px;
+}
+
+.submit_create_product{
+    -ms-user-select: none; 
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	user-select: none; 
+}
+
+.submit_create_product:active {
+    transform: translate(0em, 0.10em);
+}
+
+.submit_create_product:active::before {
+    transform: translate3d(0, 0, 0.20em);
+}
+
+.submit_create_product,
+.submit_create_product{
+    margin-top: 25px;
+}
+
+.submit_create_product{
+    border-radius: 0;
+    background: #fff;
+    padding: 5px;
+    color: #000;
+    font-family: 'Lora-Regular';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin-right: 5px;
+}
+
+.submit_create_product:hover{
+    background: #000;
+    color: #fff;
+    border: 1px solid #FFF;
+    transform: translate(0.10em, 0.10em);
+}

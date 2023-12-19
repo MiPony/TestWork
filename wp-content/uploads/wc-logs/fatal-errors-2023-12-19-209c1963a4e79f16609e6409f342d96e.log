@@ -1,0 +1,98 @@
+2023-12-19T08:43:24+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Post as array in W:\domains\test-adelohost\wp-content\themes\handeny\front-page.php:15
+Stack trace:
+#0 W:\domains\test-adelohost\wp-includes\template-loader.php(106): include()
+#1 W:\domains\test-adelohost\wp-blog-header.php(19): require_once('W:\\domains\\test...')
+#2 W:\domains\test-adelohost\index.php(17): require('W:\\domains\\test...')
+#3 {main}
+  thrown in W:\domains\test-adelohost\wp-content\themes\handeny\front-page.php on line 15
+
+2023-12-19T08:43:30+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Post as array in W:\domains\test-adelohost\wp-content\themes\handeny\front-page.php:15
+Stack trace:
+#0 W:\domains\test-adelohost\wp-includes\template-loader.php(106): include()
+#1 W:\domains\test-adelohost\wp-blog-header.php(19): require_once('W:\\domains\\test...')
+#2 W:\domains\test-adelohost\index.php(17): require('W:\\domains\\test...')
+#3 {main}
+  thrown in W:\domains\test-adelohost\wp-content\themes\handeny\front-page.php on line 15
+
+2023-12-19T08:43:48+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Post as array in W:\domains\test-adelohost\wp-content\themes\handeny\front-page.php:15
+Stack trace:
+#0 W:\domains\test-adelohost\wp-includes\template-loader.php(106): include()
+#1 W:\domains\test-adelohost\wp-blog-header.php(19): require_once('W:\\domains\\test...')
+#2 W:\domains\test-adelohost\index.php(17): require('W:\\domains\\test...')
+#3 {main}
+  thrown in W:\domains\test-adelohost\wp-content\themes\handeny\front-page.php on line 15
+
+2023-12-19T08:44:48+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Post as array in W:\domains\test-adelohost\wp-content\themes\handeny\front-page.php:15
+Stack trace:
+#0 W:\domains\test-adelohost\wp-includes\template-loader.php(106): include()
+#1 W:\domains\test-adelohost\wp-blog-header.php(19): require_once('W:\\domains\\test...')
+#2 W:\domains\test-adelohost\index.php(17): require('W:\\domains\\test...')
+#3 {main}
+  thrown in W:\domains\test-adelohost\wp-content\themes\handeny\front-page.php on line 15
+
+2023-12-19T08:49:28+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Post as array in W:\domains\test-adelohost\wp-content\themes\handeny\front-page.php:15
+Stack trace:
+#0 W:\domains\test-adelohost\wp-includes\template-loader.php(106): include()
+#1 W:\domains\test-adelohost\wp-blog-header.php(19): require_once('W:\\domains\\test...')
+#2 W:\domains\test-adelohost\index.php(17): require('W:\\domains\\test...')
+#3 {main}
+  thrown in W:\domains\test-adelohost\wp-content\themes\handeny\front-page.php on line 15
+
+2023-12-19T09:45:37+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php on line 185
+
+2023-12-19T09:45:38+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php on line 185
+
+2023-12-19T09:45:38+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php on line 185
+
+2023-12-19T10:52:32+00:00 CRITICAL Uncaught Error: Call to undefined function insert_post_meta() in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php:188
+Stack trace:
+#0 W:\domains\test-adelohost\wp-includes\class-wp-hook.php(324): remove_custom_fields_callback()
+#1 W:\domains\test-adelohost\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 W:\domains\test-adelohost\wp-includes\plugin.php(517): WP_Hook->do_action()
+#3 W:\domains\test-adelohost\wp-admin\admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php on line 188
+
+2023-12-19T10:52:35+00:00 CRITICAL Uncaught Error: Call to undefined function insert_post_meta() in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php:188
+Stack trace:
+#0 W:\domains\test-adelohost\wp-includes\class-wp-hook.php(324): remove_custom_fields_callback()
+#1 W:\domains\test-adelohost\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 W:\domains\test-adelohost\wp-includes\plugin.php(517): WP_Hook->do_action()
+#3 W:\domains\test-adelohost\wp-admin\admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php on line 188
+
+2023-12-19T10:52:46+00:00 CRITICAL Uncaught Error: Call to undefined function insert_post_meta() in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php:188
+Stack trace:
+#0 W:\domains\test-adelohost\wp-includes\class-wp-hook.php(324): remove_custom_fields_callback()
+#1 W:\domains\test-adelohost\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 W:\domains\test-adelohost\wp-includes\plugin.php(517): WP_Hook->do_action()
+#3 W:\domains\test-adelohost\wp-admin\admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php on line 188
+
+2023-12-19T10:53:15+00:00 CRITICAL Uncaught Error: Call to undefined function insert_post_meta() in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php:188
+Stack trace:
+#0 W:\domains\test-adelohost\wp-includes\class-wp-hook.php(324): remove_custom_fields_callback()
+#1 W:\domains\test-adelohost\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 W:\domains\test-adelohost\wp-includes\plugin.php(517): WP_Hook->do_action()
+#3 W:\domains\test-adelohost\wp-admin\admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php on line 188
+
+2023-12-19T11:29:35+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on string in W:\domains\test-adelohost\wp-content\plugins\woocommerce\templates\single-product\sale-flash.php:25
+Stack trace:
+#0 W:\domains\test-adelohost\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 W:\domains\test-adelohost\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1696): wc_get_template()
+#2 W:\domains\test-adelohost\wp-includes\class-wp-hook.php(324): woocommerce_show_product_sale_flash()
+#3 W:\domains\test-adelohost\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 W:\domains\test-adelohost\wp-includes\plugin.php(517): WP_Hook->do_action()
+#5 W:\domains\test-adelohost\wp-content\plugins\woocommerce\templates\content-single-product.php(43): do_action()
+#6 W:\domains\test-adelohost\wp-includes\template.php(792): require('W:\\domains\\test...')
+#7 W:\domains\test-adelohost\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template()
+#8 W:\domains\test-adeloh in W:\domains\test-adelohost\wp-content\plugins\woocommerce\templates\single-product\sale-flash.php on line 25
+
+2023-12-19T12:12:32+00:00 CRITICAL Cannot redeclare remove_custom_fields_callback() (previously declared in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php:191) in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php on line 201
+
+2023-12-19T12:12:37+00:00 CRITICAL Cannot redeclare remove_custom_fields_callback() (previously declared in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php:191) in W:\domains\test-adelohost\wp-content\themes\handeny\functions.php on line 201
+
