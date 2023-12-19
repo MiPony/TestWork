@@ -38,14 +38,14 @@ function woocommerce_product_custom_fields(){
         array(
             'id' => '_custom_product_date_field',
             'placeholder' => 'Product create date',
-            'label' => __('Custom Product Date Field', 'woocommerce'),
+            'label' => __('Custom product date', 'woocommerce'),
             'type' => 'date'
         )
     );
 
 	woocommerce_wp_select( array(
 		'id'      => 'custom_product_select_field',
-		'label' => __('Select product type', 'woocommerce'),
+		'label' => __('Custom select product type', 'woocommerce'),
 		'desc_tip' => true,
 		'style' => 'margin-bottom:40px;',
 		'value' => get_post_meta( get_the_ID(), 'custom_product_select_field', true ),
@@ -121,7 +121,7 @@ function custom_image_uploader_field( $name, $value = '') {
 add_action( 'admin_menu', 'custom_meta_box_add' );
 function custom_meta_box_add() {
     add_meta_box('customdiv', 
-        'Image',
+        'Custom Image',
         'custom_print_box',
         'product',
         'normal',
